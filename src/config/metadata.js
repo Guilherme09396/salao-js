@@ -1,4 +1,4 @@
-const metadata = {
+ const metadata = {
   title: `salao-js`,
   siteUrl: `https://www.yourdomain.tld`
 };

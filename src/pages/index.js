@@ -1,4 +1,16 @@
 import * as React from "react"
+import HeroSection from "../components/sections/HeroSection"
+import FeatureSection from "../components/sections/FeatureSection"
+import TeamSection from "../components/sections/TeamSection"
+import TestimonialsSection from "../components/sections/TestimonialsSection"
+import CTA1Section from "../components/sections/CTA1Section"
+import ContactSection from "../components/sections/ContactSection"
+import FooterSection from "../components/sections/FooterSection"
+import PricingSection from "../components/sections/PricingSection"
+import ProofSection from "../components/sections/ProofSection"
+import CAT2Section from "../components/sections/CAT2Section"
+import FAQSection from "../components/sections/FAQSection"
+
 
 const pageStyles = {
   color: "#232129",
@@ -125,13 +137,20 @@ const links = [
 
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>
-        Salão JS
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
-      </h1>
-    </main>
+    <>
+      <HeroSection/>
+      <FeatureSection/>
+      <TeamSection/>
+      <CTA1Section/>
+      <TestimonialsSection/>
+      <PricingSection/>
+      <CAT2Section/>
+      <ProofSection/>
+      <ContactSection/>
+      <FAQSection/>
+      <FooterSection/>
+      
+    </>
   )
 }
 
